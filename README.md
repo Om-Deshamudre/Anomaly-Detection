@@ -6,7 +6,7 @@ This repository contains code for analyzing and classifying cryptocurrency trans
 ## Installation
 1. Clone this repository:
 
-git clone https://github.com/your-username/Anomaly-Detection.git
+git clone https://github.com/Om-Deshamudre/Anomaly-Detection.git
 
 
 2. Navigate to the project directory:
