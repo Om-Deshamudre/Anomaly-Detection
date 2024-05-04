@@ -1,31 +1,43 @@
-#De-Anonymization of Illegal Cryptocurrency Transactions
-##Description:
-This project aims to address the challenge of identifying and de-anonymizing illegal cryptocurrency transactions using anomaly detection techniques implemented in Python. With the rise of cryptocurrencies, there has been a corresponding increase in illicit activities such as money laundering, fraud, and illicit transactions. Traditional financial institutions often struggle to trace and monitor these transactions due to the inherent anonymity of cryptocurrencies. This project leverages anomaly detection algorithms to detect suspicious patterns and behaviors within cryptocurrency transactions, ultimately aiding in the identification and prevention of illegal activities.
+# Anomaly Detection
 
-##Key Features:
-1.Anomaly Detection: Utilizes advanced anomaly detection algorithms to identify unusual patterns or behaviors within cryptocurrency transactions.
-2.De-Anonymization: Analyzes transaction data to uncover potential links between anonymous wallets and illicit activities, facilitating the de-anonymization process.
-3.Python Implementation: Entirely implemented in Python, making it accessible and customizable for users with varying levels of programming expertise.
-4.Scalability: Designed to handle large volumes of transaction data, enabling efficient processing and analysis of cryptocurrency networks.
-5.Visualization: Provides visualization tools to illustrate detected anomalies and highlight suspicious transactions for further investigation.
-##Installation:
-Clone the repository to your local machine:
-bash
-Copy code
-git clone https://github.com/Om-Deshamudre/Anomaly-Detection.git
-Install the required dependencies:
-Copy code
-pip install -r requirement.txt
+## Overview
+This repository contains code for analyzing and classifying cryptocurrency transactions. It preprocesses transaction data, performs anomaly detection to identify potentially illicit transactions, and visualizes network analysis results.
 
-Copy code
-python3 app.py
-Follow the prompts to input the necessary parameters and select the desired analysis options.
-View the generated output, including detected anomalies, visualization plots, and insights into potential illegal transactions.
-##Contributing:
-Contributions to this project are welcome and encouraged! Whether you're interested in adding new features, improving existing functionality, or fixing bugs, please feel free to submit a pull request. Be sure to follow the contribution guidelines outlined in CONTRIBUTING.md.
+## Installation
+1. Clone this repository:
 
-##License:
-This project is licensed under the MIT License. See the LICENSE file for more details.
+git clone https://github.com/your-username/Anomaly-Detection.git
 
-Contact:
-For questions, feedback, or inquiries about this project, please contact [OM DESHAMUDRE] at [omdeshamudre513gmail.com].
+
+2. Navigate to the project directory:
+cd Anomaly-Detection
+
+3. Install the required dependencies:
+pip install -r requirements.txt
+
+## Usage
+1. Run the Flask application:
+python app.py
+
+2. Open your web browser and go to `http://127.0.0.1:5000/` to view the blockchain transaction graph.
+
+## Project Structure
+- app.py: Contains the Flask application code.
+- templates/upload.html: HTML template for uploading transaction data.
+- templates/index.html: HTML template for displaying network analysis results.
+- static/network_analysis_plot.png: Image file for the network analysis plot.
+- README.md: Overview and usage instructions for the repository.
+- requirements.txt: List of Python dependencies required for the project.
+- LICENSE: License information for the project.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Credits
+- Flask: Web framework used for building the application.
+- Pandas: Library used for data manipulation and analysis.
+- Matplotlib: Library used for plotting network analysis results.
+- Scikit-learn: Library used for machine learning algorithms.
+- SQLite: Database engine used for storing transaction data.
+- NumPy: Library used for numerical computing.
+- SQLite3: Python library for SQLite database operations.
