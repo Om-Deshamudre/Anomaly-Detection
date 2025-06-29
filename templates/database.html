@@ -39,10 +39,16 @@
 </head>
 <body>
     <h1>Database Contents</h1>
-    
-    <!-- Display the DataFrame table -->
-    {% for table in tables %}
-        {{ table|safe }}
-    {% endfor %}
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% else %}
+        <!-- Display the DataFrame table -->
+        {% for table in tables %}
+            {{ table|safe }}
+        {% endfor %}
+    {% endif %}
+    <br>
+    <a href="{{ url_for('upload_file') }}">Upload Another File</a>
 </body>
 </html>
